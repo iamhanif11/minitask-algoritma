@@ -1,7 +1,7 @@
 menentukan bilangan ganjil & genap
 1. Mulai
 2. Masukkan nilai x
-3. melakukan pembagian x dengan 2
+3. melakukan perhitungan sisa bagi x dengan 2
 4. apabila hasil bagi habis dibagi 2 maka x = 'genap'
 5. apabila hasil bagi tidak habis dibagi 2 maka x = 'ganjil'
 6. selesai
