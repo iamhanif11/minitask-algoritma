@@ -1,8 +1,9 @@
 Menghitung luas dan keliling lingakaran
 1. Mulai
-2. tetapkan nilai pi=3.14
-3. masukkan nilai jari-jari(r)
-4. hitung luas lingkaran menggunakan rumus Luas =pi x r x r
-5. hitung keliling lingkaran menggunakan rumus Keliling=2 x pi x r
-6. tampilkan hasil perhitungan luas dan keliling lingkaran
-7. Selesai
+2. masukkan nilai jari-jari(r)
+3. apabila r bisa dibagi 7 maka tetapakan pi=22/7
+4. apabila r tidak bisa dibagi 7 tetapkan pi=3.14
+5. hitung luas lingkaran menggunakan rumus Luas =pi x r x r
+6. hitung keliling lingkaran menggunakan rumus Keliling=2 x pi x r
+7. tampilkan hasil perhitungan luas dan keliling lingkaran
+8. Selesai
