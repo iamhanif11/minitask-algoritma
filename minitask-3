@@ -1,8 +1,7 @@
 menentukan bilangan ganjil & genap
 1. Mulai
 2. Masukkan nilai x
-3. melakukan perhitungan dengan rumus modulo(sisa hasil bagi) nilai x dengan 2( x %2==0 )
+3. melakukan pembagian x dengan 2
 4. apabila hasil bagi habis dibagi 2 maka x = 'genap'
 5. apabila hasil bagi tidak habis dibagi 2 maka x = 'ganjil'
-6. tampilkan hasil x bilangan ganjil atau genap
-7. selesai
+6. selesai
