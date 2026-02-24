@@ -1,0 +1,12 @@
+FUNCTION HitungTotalPembelian
+  DECLARE jumlahPembelian, diskon, totalPembelian: num
+BEGIN
+  INPUT(jumlahPembelian)
+  IF jumlahPembelian>= 500.000 AND <=1.000.000 THEN
+    diskon <- 5%
+  ELSEIF jumlahPembelian> 1.000.000 THEN
+    diskon <- 10%
+  ENDIF
+  OUTPUT("Total Pembelian: ",totalPembelian)
+  OUTPUT("Diskon: ", diskon)
+END  
