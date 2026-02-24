@@ -1,0 +1,20 @@
+FUNCTION TagihanListrik
+  DECLARE kWh, tagihan: INTEGER
+
+BEGIN
+  INPUT (kWh)
+  IF kWh > 100 AND <=200
+  THEN 
+    tagihan <- kWh x 3000
+
+  ELSE IF kWh > 200
+  THEN
+    tagihan <- kWh x 5000
+
+  ELSE IF kWh <=100
+  THEN 
+    tagihan<- kWH x 2000
+  END IF
+
+  OUTPUT ("Tagihan: ", tagihan)
+END
