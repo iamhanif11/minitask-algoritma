@@ -1,12 +1,18 @@
 FUNCTION HitungTotalPembelian
-  DECLARE jumlahPembelian, diskon, totalPembelian: num
+  DECLARE jumlahPembelian, diskon, totalPembelian: INTEGER
+  
 BEGIN
   INPUT(jumlahPembelian)
-  IF jumlahPembelian>= 500.000 AND <=1.000.000 THEN
-    diskon <- 5%
-  ELSEIF jumlahPembelian> 1.000.000 THEN
-    diskon <- 10%
+  IF jumlahPembelian>= 500.000 AND <=1.000.000 
+  THEN
+    diskon <- 0.05 x jumlahPembelian
+  ELSEIF jumlahPembelian > 1.000.000
+  THEN
+    diskon <- 0.1 x jumlahPembelian
   ENDIF
-  OUTPUT("Total Pembelian: ",totalPembelian)
+
+  totalPembelian <- jumlahPembelian - diskon
+  
   OUTPUT("Diskon: ", diskon)
+  OUTPUT("Total Pembelian: ",totalPembelian)
 END  
