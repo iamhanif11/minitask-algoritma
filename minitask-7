@@ -13,7 +13,7 @@ BEGIN
 
   ELSE IF kWh <=100
   THEN 
-    tagihan<- kWH x 2000
+    tagihan <- kWH x 2000
   END IF
 
   OUTPUT ("Tagihan: ", tagihan)
